@@ -1,4 +1,5 @@
 gymnasium
-numpy
 torch
+numpy
 matplotlib
+opencv-python
