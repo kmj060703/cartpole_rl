@@ -1,7 +1,9 @@
 ## 주요 기능
+```bash
 **Parallel Environments**: 9개의 환경을 동시에 실행하여 데이터 수집 속도 극대화
 **DQN (Deep Q-Network)**: Experience Replay와 Target Network가 적용된 DQN 알고리즘
 **Real-time Visualization**: OpenCV를 활용하여 9개의 학습 화면을 하나의 윈도우에서 실시간 모니터링
+```
 
 ## 설치 및 실행 방법 (Setup & Usage)
 
@@ -28,5 +30,7 @@ python train.py
 ```
 
 ## 추후 수정 방안
+```bash
 **Checkpoint 저장/로드**: 학습 중간 가중치(`model.pth`)를 저장하고 불러오는 기능 추가
 **Hyperparameter Tuning**: `config.py`의 파라미터(LR, Gamma 등) 최적화
+```
